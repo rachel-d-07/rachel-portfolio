@@ -81,6 +81,17 @@ export default function OceanBackground() {
         }}
       />
 
+      {/* Distant island silhouette - placeholder */}
+      <div className="absolute bottom-[15%] left-[8%] w-40 h-16 bg-black/30 rounded-t-full blur-sm" />
+      <div className="absolute bottom-[15%] right-[15%] w-56 h-20 bg-black/20 rounded-t-full blur-sm" />
+
+      {/* Ship silhouette - placeholder, swap for real art later */}
+      <div className="absolute bottom-[18%] right-[20%] w-48 h-32">
+        <div className="absolute bottom-0 w-full h-10 bg-black/40 rounded-b-3xl" />
+        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 w-1 h-20 bg-black/40" />
+        <div className="absolute bottom-16 left-1/2 -translate-x-1/2 w-16 h-16 bg-black/20 rounded-tr-full" />
+      </div>
+
       <div className="absolute bottom-0 left-0 right-0 h-1/4 bg-linear-to-t from-[#02060f] to-transparent" />
     </div>
   );
